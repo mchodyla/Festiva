@@ -103,7 +103,7 @@ router.get("/:id", (req, res) => {
  * @swagger
  * /events:
  *   post:
- *     summary: Create a new event
+ *     summary: Tworzy wydarzenie
  *     tags: [Events]
  *     requestBody:
  *       required: true
@@ -139,7 +139,7 @@ router.post("/", (req, res) => {
  * @swagger
  * /events/{id}:
  *   put:
- *     summary: Update the event by the id
+ *     summary: Aktualizuje wydarzenie po id
  *     tags: [Events]
  *     parameters:
  *       - in: path
@@ -181,7 +181,7 @@ router.put("/:id", (req, res)=> {
  * @swagger
  * /events/{id}:
  *   delete:
- *     summary: Remove the event by id
+ *     summary: Usuwa wydarzenie po id
  *     tags: [Events]
  *     parameters:
  *       - in: path
@@ -189,7 +189,7 @@ router.put("/:id", (req, res)=> {
  *         schema:  
  *           type: string
  *         required: true
- *         description: The book id
+ *         description: The event id
  * 
  *     responses: 
  *       200:
