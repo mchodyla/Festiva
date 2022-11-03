@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": "iEuOBYkU",
+      "title": "Wydarzenie_1",
+      "date": "01-01-2023",
+      "description": "Opis wydarzenia 1"
+    },
+    {
+      "id": "0kFaJHB2",
+      "title": "Wydarzenie_2",
+      "date": "02-02-2023",
+      "description": "Opis wydarzenia 2"
+    },
+    {
+      "id": "ukjXyUuM",
+      "title": "Wydarzenie_3",
+      "date": "03-03-2023",
+      "description": "Opis wydarzenia 3"
+    }
+  ]
+}
